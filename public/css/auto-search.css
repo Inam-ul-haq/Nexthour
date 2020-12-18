@@ -1,0 +1,58 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+.aa-input-container {
+  display: inline-block;
+  position: relative; }
+.aa-input-icon {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  fill: #e4e4e4; }
+.aa-hint {
+  color: #e4e4e4; }
+.aa-dropdown-menu {
+  border: 1px solid #B1B1B1;
+  background-color: #111;
+  width: 300px;
+  margin-top: -2px;
+  border-radius: 0 0 3px 3px;
+  border-top: none;
+  box-sizing: border-box; }
+.aa-suggestion {
+  padding: 12px;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .aa-suggestion:hover, .aa-suggestion.aa-cursor {
+    background-color: rgba(66, 66, 66, 0.8); }
+  .aa-suggestion > span:first-child {
+    color: #FFF; }
+  .aa-suggestion > span:last-child {
+    text-transform: uppercase;
+    color: #a9a9a9; }
+.aa-suggestion > span:first-child em, .aa-suggestion > span:last-child em {
+  font-weight: 700;
+  font-style: normal;
+  padding: 2px 0 2px 2px;
+  color: #48A3C6;
+}
+#main_search_icon:hover {
+  cursor: pointer !important;
+}
+.aa-suggestions-category {
+  padding: 6px 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
